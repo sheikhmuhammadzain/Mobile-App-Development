@@ -7,6 +7,4 @@ int main (){
     double d=8;
     print(d);
     return 0;
-
-
 }
