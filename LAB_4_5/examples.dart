@@ -5,8 +5,6 @@
 //   print ('Your Name is $name');
 // }
 
-
-
 // import 'dart:io';
 
 // void main() {
@@ -14,8 +12,6 @@
 //   int?number = int.parse(stdin.readLineSync()!);
 //   print('Your Roll No is $number');
 // }
-
-
 
 // void main (){
 //   List l = List.filled(3, null);
@@ -26,19 +22,16 @@
 //   print(l[0]);
 // }
 
-
-
 // import 'dart:io';
 
 // void main() {
 //   dynamic customMap= new Map ();
 
 // customMap['zain'] = '20';
-// customMap['ali'] = '21';  
+// customMap['ali'] = '21';
 // print(customMap);
 
 // }
-
 
 // void main (){
 //   double n = 8;
@@ -60,6 +53,19 @@
 //   print(g.isNegative);
 //   print(g.isEven);
 // }
+// void main() {
+// var f = r'this is a \n \n raw string ';
 
+// var s = 'This \n is a raw string';
+// print(f); //with using 'r', \n will treat as a normal
+// print(s); //without using 'r', \n will work as
 
+// }
 
+void main() {
+  Set<int> mySet = {};
+  print(mySet);
+// Creating a set with initial values
+  Set<String> fruitSet = {'apple', 'banana', 'orange'};
+  print(fruitSet);
+}
