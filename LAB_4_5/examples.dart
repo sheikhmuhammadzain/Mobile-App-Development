@@ -62,25 +62,40 @@
 
 // }
 
+// void main() {
+//   Set<int> mySet = {};
+//   print(mySet);
+// // Creating a set with initial values
+//   Set<String> fruitSet = {'apple', 'banana', 'orange'};
+//   print(fruitSet);
+//   fruitSet.forEach((fruit) {
+//     if (fruit == 'banana') {
+//       print('I found banana');
+//     }
+//   });
+//   Set<String> tst = {
+//     'Hello Students',
+//     "Teachers",
+//     "Admin1",
+//     "Admin2",
+//     "Admin3"
+//   };
+// // Converting Set to List
+//   List<String> tst_lst = tst.toList();
+//   print(tst_lst);
+//   var MyMap = {'position1': 'one', 'position2': 'two', 'position3': 'four'};
+//   print(MyMap['position1']);
+// }
+
 void main() {
-  Set<int> mySet = {};
-  print(mySet);
-// Creating a set with initial values
-  Set<String> fruitSet = {'apple', 'banana', 'orange'};
-  print(fruitSet);
-  fruitSet.forEach((fruit) {
-    if (fruit == 'banana') {
-      print('I found banana');
-    }
-  });
-  Set<String> tst = {
-    'Hello Students',
-    "Teachers",
-    "Admin1",
-    "Admin2",
-    "Admin3"
-  };
-// Converting Set to List
-  List<String> tst_lst = tst.toList();
-  print(tst_lst);
+// Creating an empty map
+Map<String, int> myMap = Map();
+// Adding key-value pairs
+myMap['one'] = 1;
+myMap['two'] = 2;
+// Accessing values by keys
+print(myMap['one'] ); // Output: 1}  
 }
+
+
+
