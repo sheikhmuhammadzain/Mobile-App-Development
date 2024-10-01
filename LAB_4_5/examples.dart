@@ -68,4 +68,19 @@ void main() {
 // Creating a set with initial values
   Set<String> fruitSet = {'apple', 'banana', 'orange'};
   print(fruitSet);
+  fruitSet.forEach((fruit) {
+    if (fruit == 'banana') {
+      print('I found banana');
+    }
+  });
+  Set<String> tst = {
+    'Hello Students',
+    "Teachers",
+    "Admin1",
+    "Admin2",
+    "Admin3"
+  };
+// Converting Set to List
+  List<String> tst_lst = tst.toList();
+  print(tst_lst);
 }
