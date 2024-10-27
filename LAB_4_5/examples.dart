@@ -87,15 +87,26 @@
 //   print(MyMap['position1']);
 // }
 
+// void main() {
+// // Creating an empty map
+// Map<String, int> myMap = Map();
+// // Adding key-value pairs
+// myMap['one'] = 1;
+// myMap['two'] = 2;
+// // Accessing values by keys
+// print(myMap['one'] ); // Output: 1}
+// }
+
+import 'dart:ffi';
+
 void main() {
-// Creating an empty map
-Map<String, int> myMap = Map();
-// Adding key-value pairs
-myMap['one'] = 1;
-myMap['two'] = 2;
-// Accessing values by keys
-print(myMap['one'] ); // Output: 1}  
+// Creating an unmodifiable map
+//
+  var studentgrades = {'alice': 90, 'bob': 80, 'charli': 12};
+  studentgrades['david'] = 88;
+  studentgrades['bob'] = 90;
+  print(studentgrades);
+  studentgrades.remove('charli');
+  print(studentgrades);
+  studentgrades.forEach((key, value) => print(key[""] ));
 }
-
-
-
