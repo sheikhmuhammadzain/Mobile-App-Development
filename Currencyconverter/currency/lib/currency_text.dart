@@ -1,3 +1,4 @@
+import 'package:currency/currency_button.dart';
 import 'package:currency/currency_input.dart';
 import 'package:flutter/material.dart';
 
@@ -24,20 +25,10 @@ class CurrencyText extends StatelessWidget {
             child: CurrencyInput(),
           ),
 
-          TextButton(
-            onPressed: null,
-            child: const Text(
-              'Convert Currency',
-              style: TextStyle(color: Colors.white),
-            ),
-            style: ButtonStyle(
-              fixedSize: WidgetStatePropertyAll(
-                Size(200, 40),
-              ),
-              backgroundColor: WidgetStatePropertyAll(Colors.purpleAccent),
-              foregroundColor: WidgetStatePropertyAll(Colors.orangeAccent),
-            ),
-          )
+          Padding(
+            padding: EdgeInsets.all(10.0),
+            child: CurrencyButton(),
+          ),
           //text button
         ],
       ),
