@@ -5,7 +5,7 @@ class CurrencyInput extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
+    return const TextField(
       style: TextStyle(color: Colors.white),
       decoration: InputDecoration(
         fillColor: Colors.black,

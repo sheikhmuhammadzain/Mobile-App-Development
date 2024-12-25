@@ -10,7 +10,7 @@ class CurrencyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
         title: 'Currency Converter', home: CurrencyConverterPage());
   }
 }

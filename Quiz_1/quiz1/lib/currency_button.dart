@@ -5,7 +5,7 @@ class CurrencyButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(
+    return const TextButton(
         style:
             ButtonStyle(backgroundColor: WidgetStatePropertyAll(Colors.amber)),
         onPressed: null,

@@ -6,9 +6,9 @@ class CurrencyButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  TextButton(
+    return  const TextButton(
             onPressed: null,
-            child: const Text(
+            child: Text(
               'Convert Currency',
               style: TextStyle(color: Colors.white),
             ),

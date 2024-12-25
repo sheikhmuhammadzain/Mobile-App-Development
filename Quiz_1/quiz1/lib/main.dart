@@ -4,7 +4,7 @@ import 'package:quiz1/currency_input.dart';
 import 'package:quiz1/currency_text.dart';
 
 void main() {
-  runApp(CurrencyApp());
+  runApp(const CurrencyApp());
 }
 
 class CurrencyApp extends StatelessWidget {
@@ -15,14 +15,14 @@ class CurrencyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Currency Converter App'),
+          title: const Text('Currency Converter App'),
         ),
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: Container(
-              padding: EdgeInsets.all(90.0),
-              child: Column(
+              padding: const EdgeInsets.all(90.0),
+              child: const Column(
                 children: [
                   CurrencyText(),
                   CurrencyInput(),

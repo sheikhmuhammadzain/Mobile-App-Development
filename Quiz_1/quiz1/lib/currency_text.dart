@@ -5,7 +5,7 @@ class CurrencyText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return const Text(
       'Currency Converter',
       style: TextStyle(fontSize: 50.0),
     );

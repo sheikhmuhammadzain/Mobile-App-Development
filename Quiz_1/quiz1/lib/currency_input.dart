@@ -11,18 +11,18 @@ class CurrencyInput extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Container(
-                    margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                    margin: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                     child: TextField(
                       keyboardType:
-                          TextInputType.numberWithOptions(decimal: true),
-                      style: TextStyle(
+                          const TextInputType.numberWithOptions(decimal: true),
+                      style: const TextStyle(
                         color: Colors.indigo,
                       ),
                       decoration: InputDecoration(
                           fillColor: Colors.amber,
                           filled: true,
                           hintText: 'Enter the Amount Here ',
-                          prefixIcon: Icon(Icons.attach_money),
+                          prefixIcon: const Icon(Icons.attach_money),
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10.0))),
                     ));

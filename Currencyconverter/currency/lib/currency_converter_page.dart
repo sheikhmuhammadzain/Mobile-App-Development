@@ -9,7 +9,7 @@ class CurrencyConverterPage extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(title: const Text('Currency Converter')),
-        body: CurrencyText(),
+        body: const CurrencyText(),
         
         );
   }
